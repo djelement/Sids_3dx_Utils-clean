@@ -12,5 +12,19 @@ exclude =
     vendor_binaries,
     build,
     dist,
-    *.pyc
+    *.pyc,
+    *.dist-info,
+    IPython,
+    cv2,
+    plotly,
+    plotly-*,
+    skimage,
+    numpy*,
+    scipy*,
+    jedi,
+    parso,
+    nbformat,
+    flask*,
+    werkzeug*,
+    prompt_toolkit*
 ignore = E203, W503
