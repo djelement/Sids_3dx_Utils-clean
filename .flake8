@@ -1,0 +1,16 @@
+[flake8]
+max-line-length = 88
+exclude =
+    .git,
+    __pycache__,
+    node_modules,
+    dash/deps,
+    dash/labextension/node_modules,
+    PyQt6,
+    OpenGL,
+    Sids_3dx_Utils.exe,
+    vendor_binaries,
+    build,
+    dist,
+    *.pyc
+ignore = E203, W503
